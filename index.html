@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is it a leap year?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <div id="banner">
+      <h1 id="heading">Is it a leap year?</h1>
+      <img id="hero-img" src="assets/hero-img.svg" alt="Is it a leap year?" />
+      <a id="main-link" href="http://127.0.0.1:5500/index.html#main-link">Let's Check!</a>
+    </div>
+    <div id="main-app">
+      <form class="form-style">
+        <label for="year" class="label-style"> Enter a year: </label>
+        <input type="number" name="Year" id="year" class="input-style" />
+        <button id="check" class="check-style">Check</button>
+      </form>
+      <img
+        src="assets/loading.gif"
+        alt="loading..."
+        id="loading-img"
+        style="display: none"
+        class="img"
+      />
+      <div id="final-result">
+        <p id="result" class="result-style"></p>
+        <img id="final-img" class="img"/>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
